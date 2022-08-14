@@ -440,6 +440,8 @@ body {
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
+    max-width: 251px;
+
 
   }
   
@@ -448,6 +450,7 @@ body {
     line-height: 30px;
     font-weight: 400;
     max-width: 660px;
+    margin-bottom: 173px;
   }
   
   .about__paragraph {
@@ -456,6 +459,7 @@ body {
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
+    margin-bottom: 173px;
   }
   
   .about__paragraph:last-of-type {
