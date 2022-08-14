@@ -1,4 +1,15 @@
 @import url(../vendor/normalize.css);
+@keyframes pulsate {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.6%;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 
 body {
   font-family: "Inter", Arial, sans-serif;
@@ -473,10 +484,25 @@ body {
     border-radius: 50%;
     position: absolute;
     z-index: -1;
-    left: -91px;
-    top: -121px;
+    left: -129px;
+    top: -152px;
   }
   
+  .about__circle_animation_blurred {
+    background-color: #2f80ed;
+    width: 426px;
+    height: 426px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    left: -129px;
+    top: -152px;
+    transform:scale(1.2);
+    animation: pulsate 1.3s ease-in-out infinite;
+    transition-delay: 0s;
+
+
+  }
   .footer {
     box-sizing: border-box;
     background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
@@ -489,9 +515,6 @@ body {
     display: flex;
   }
   
-  .footer__column_content_hours {
-    margin-left: auto;
-  }
   
   .footer__column_content_social {
     margin-left: 100px;
@@ -539,6 +562,7 @@ body {
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
+    
   }
   
   .footer__copyright {
