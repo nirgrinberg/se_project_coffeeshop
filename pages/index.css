@@ -4,7 +4,7 @@
         opacity: 0;
     }
     50% {
-        opacity: 0.6%;
+        opacity: 0.6;
     }
     100% {
         opacity: 0;
@@ -510,10 +510,11 @@ body {
     min-height: 224px;
     padding: 60px 102px 60px 80px;
   }
-  
-  .footer__columns {
+  .footer_content {
     display: flex;
+    justify-content: space-between;
   }
+  
   
   
   .footer__column_content_social {
@@ -521,8 +522,8 @@ body {
   }
   
   .footer__logo {
-    width: 146px;
-    height: 30px;
+    width: 116px;
+    height: 21px;
   }
   
   .footer__list {
@@ -557,11 +558,9 @@ body {
   }
   
   .footer__social-icon {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
     
   }
   
@@ -571,5 +570,6 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
+    margin:108px 0 60px;
   }
   
