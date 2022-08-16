@@ -4,10 +4,9 @@
     box-sizing: border-box;
     background-color: #d9e7ff;
     background-image: url(../images/background_reservation.svg);
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* height: 100vh; */
     position: relative;
     display: flex;
     flex-direction: column;

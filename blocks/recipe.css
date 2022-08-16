@@ -3,14 +3,14 @@
     box-sizing: border-box;
     background-color: #fff;
     background-image: url(../images/background_recipes.svg);
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
     position: relative;
     display: flex;
     flex-direction: column;
-    /* margin: 0px 75px 0 75px; */
+    
   }
   
   .recipes__title {
@@ -50,7 +50,7 @@
   .recipes__videos {
     display: flex;
     gap: 40px;
-    position: center;
+    position:relative;
     justify-content: center;
     padding-top: 80px;
     padding-bottom: 215px;
