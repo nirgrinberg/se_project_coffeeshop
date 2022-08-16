@@ -106,7 +106,7 @@ body {
     box-sizing: border-box;
   }
   
-  .header__paragraph__paragraph_text {
+  .header__paragraph_text {
     font-family: "Inter";
     color: #6f6f6f;
     font-style: normal;
@@ -116,12 +116,12 @@ body {
     margin: 0;
   }
   
-  .header__paragraph__paragraph_table {
+  .header__paragraph_table {
     list-style: none;
     padding-left: 80px;
   }
   
-  .header__paragraph_paragraph_text_address {
+  .header__paragraph_text_address {
     padding-right: 80px;
     color: #6f6f6f;
   }
