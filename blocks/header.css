@@ -57,15 +57,8 @@ body {
   
   .header__title {
     max-width: 729px;
-    margin-top: 202px;
-    margin-bottom: 28px;
-    padding-left: 80px;
-    font-family:"inter";
-    font-weight: 500;
-    font-size: 60px;
-    line-height: 72px;
-    display: flex;
-    flex-direction: column;
+    margin: 202px auto auto 80px;
+    display: block;
   }
   
   .title__span-accent {
@@ -74,6 +67,7 @@ body {
     font-size: 60px;
     line-height: 72px;
     color: #2f80ed;
+    display: block;
   }
   
   .title {
