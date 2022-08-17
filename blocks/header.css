@@ -110,12 +110,12 @@ body {
     margin: 0;
   }
   
-  .header__paragraph_table {
+  .header__table {
     list-style: none;
     padding-left: 80px;
   }
   
-  .header__paragraph_text_address {
+  .header__address {
     padding-right: 80px;
     color: #6f6f6f;
   }
