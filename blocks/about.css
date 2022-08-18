@@ -1,78 +1,50 @@
-@keyframes pulsate {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 0.6;
-    }
-    100% {
-        opacity: 0;
-    }
-}
 
 .about {
-    display: flex;
-    gap: 120px;
-    padding: 100px 80px;
-    background-color: #0a2750;
-    color: #fff;
-    overflow: hidden;
-    position: relative;
-    box-sizing: border-box;
-    z-index: 1;
-  }
-  
-  .about__title {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;
-    max-width: 251px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0a2750;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
 
+.about__title {
+  margin: 100px 0 0 80px;
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 500;
+  z-index: 2;
+  max-width: 251px;
+}
 
-  }
-  
-  .about__content {
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 400;
-    margin-bottom: 173px;
-  }
-  
-  .about__paragraph {
-    font-family: Noto serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-  }
-  
-  .about__paragraph:last-of-type {
-    margin: 0;
-  }
-  
-  .about__circle {
-    background-color: #2f80ed;
-    width: 426px;
-    height: 426px;
-    border-radius: 50%;
-    position: absolute;
-    z-index: -1;
-    left: -129px;
-    top: -152px;
-  }
-  
-  .about__circle_animation_blurred {
-    background-color: #2f80ed;
-    width: 426px;
-    height: 426px;
-    border-radius: 50%;
-    position: absolute;
-    z-index: -1;
-    left: -129px;
-    top: -152px;
-    transform:scale(1.2);
-    animation: pulsate 1.3s ease-in-out infinite;
-    transition-delay: 0s;
-  }
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 660px;
+  margin-top: 119px;
+  margin-right: 80px;
+  margin-bottom: 173px;
+}
+
+.about__paragraph {
+  margin: 0;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about__circle {
+  position: absolute;
+  background-color: #275ed6;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  z-index: 1;
+  top: -152px;
+  left: -129px;
+}
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out infinite both;
+}
