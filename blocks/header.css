@@ -12,6 +12,7 @@
   flex-direction: column;
   z-index: 1;
 }
+
 .header__logo {
   position: absolute;
   top: 30px;
@@ -20,6 +21,7 @@
   width: 125px;
   height: 142px;
 }
+
 .header__title {
   display: flex;
   flex-direction: column;
@@ -30,6 +32,7 @@
   padding: 202px 80px 28px;
   margin: 0;
 }
+
 .header__span-accent {
   display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
@@ -46,6 +49,7 @@
   font-size: 20px;
   line-height: 30px;
 }
+
 .header__image {
   width: 646px;
   height: 568px;
@@ -54,6 +58,7 @@
   right: 5px;
   z-index: -1;
 }
+
 .header__footer {
   display: flex;
   justify-content: space-between;
@@ -62,6 +67,7 @@
   color: #6f6f6f;
   margin: auto 80px 40px;
 }
+
 .header__paragraph {
   font-weight: 500;
   margin: 0;

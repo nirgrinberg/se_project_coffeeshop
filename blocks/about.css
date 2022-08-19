@@ -1,15 +1,18 @@
-@keyframes pulsate{ 
+@keyframes pulsate {
   0% {
     opacity: 1;
   }
+
   50% {
     opacity: 0.6;
   }
+
   100% {
     transform: scale(1.1);
     opacity: 0.2;
   }
 }
+
 .about {
   display: flex;
   justify-content: space-between;
@@ -56,6 +59,7 @@
   top: -152px;
   left: -129px;
 }
+
 .about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out infinite both;
 }

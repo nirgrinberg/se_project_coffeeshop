@@ -24,6 +24,7 @@
 .footer__list-item {
   margin-bottom: 16px;
 }
+
 .footer__list-item:last-of-type {
   margin-bottom: 0;
 }
@@ -41,6 +42,7 @@
   text-decoration: none;
   transition: color 0.5s linear;
 }
+
 .footer__social-link:hover {
   color: #c1c1c1;
 }
@@ -50,6 +52,7 @@
   height: 16px;
   transition: color 0.3s linear;
 }
+
 .footer__social-icon:hover {
   color: #c1c1c1;
 }
